@@ -1,0 +1,91 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 139, 139);
+   }
+  h1{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: red;
+
+  font-family:Georgia, Times New Roman', Times, serif;
+  text-align center;
+  }
+   .centered-heading{
+    text-align: center;/* centre align of the text*/
+  } 
+
+     
+  
+
+    /* Styles for the table-like structure */
+    .table {
+        display: table;
+        width: 100%;
+    }
+
+    .table-row {
+        display: table-row;
+    }
+
+    .table-header {
+        display: table-cell;
+        font-weight: bold;
+        text-align: center;
+        padding: 8px;
+    }
+    th{ 
+        margin: 0 ;
+        padding: 0;
+        background-color: blue;
+      color: white;
+    }
+
+    .table-cell {
+        display: table-cell;
+        text-align: center;
+        padding: 8px;
+        border: 1px solid #ccc;
+        
+    }
+    
+    footer{
+        padding: 20px;
+        margin: 20px;
+    }
+    footer{
+       background-color: #1212c3;
+    }
+    footer{
+        color:white;
+    }
+    footer{
+       border-top: 1px solid #ccc; /* Add a top border to the footer */
+    }
+    footer a{
+        text-decoration: none; /* Remove underlines from links */
+        color: #ccc;
+    }
+    footer{
+        text-align: center;
+        
+        }
+        .red cell{
+            background-color: red;
+            color: white;
+
+        }
+    .blue cell{
+        background-color:blue ;
+        color: white;
+    }
+    green cell{
+        background-color: rgb(13, 62, 13);
+        color: white;
+    }
+   
+   
+
